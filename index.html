@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Football Lovers</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<nav>
+		<ul class="topnav responsive" id="dropdownClick">
+			<li><a class="active" href="#home">Home</a></li>
+			<li><a href="#news">News</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about">About</a></li>
+			<li class="topnav-right"><a href="#signup">Sign In</a></li>
+			<li class="topnav-right"><a href="#signup">Sign Up</a></li>
+			<li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+	    </ul>
+
+	</nav>
+
+
+<div class="container" id="section-1-gradient">
+	<div class="row">
+		<div class="col-16">
+			<div class="leftSide-col">
+				<h1 class="large">Welcome to the green pitch page</h1>
+				<h1 class="large">For football lovers</h1>
+			</div>
+			<form>
+				<div class="leftSide-col">
+					<h2>Username</h2>
+					<input class="inputbox" name="username" type="text" placeholder="Username">
+					<h2>Password</h2>
+					<input class="inputbox" name="Password" type="text" placeholder="Password">
+				</div>
+			</form>
+		</div>
+		<div class="col-16">
+			<div class="rightSide-col">
+				<div class="videoContainer">
+				<iframe width="450" height="315" src="https://www.youtube.com/embed/QE7MAyHTNSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+<header>
+	<h1 class="section2Header">Learn more about your favourite club?</h1>
+</header>
+
+<div class="container">
+	<div class="row">
+		<div class="col-4">
+			<div class="box">
+				<div class="icon">
+				  <img src="FC_Barcelona.png" height="50%" width="50%">
+				</div>
+				<label>About the club</label>
+				<p>FC Barcelona, also known simply as Barcelona and familiarly as Barça, is based in Barcelona, Catalonia, Spain. The team was founded in 1899 by a group of Swiss, English, German and Catalan footballers led by Joan Gamper. The club played amateur football until 1910 in various regional competitions.</p>			
+			</div>			
+		</div>	
+		<div class="col-4">
+			<div class="box">
+				<div class="icon">
+				  <img src="Chelsea.png" height="50%" width="50%">
+				</div>
+				<label>About the club</label>
+				<p>Chelsea FC was founded in 1905 by Henry Augustus Mears. Home games are played at Stamford Bridge stadium, the original site Mears chose for the club. The team had mixed fortunes over the years, not winning a major trophy until the 1950s and moving up and down between divisions several times.</p>			
+			</div>			
+		</div>	
+		<div class="col-4">
+			<div class="box">
+				<div class="icon">
+				  <img src="Real_Madrid.png" height="50%" width="50%">
+				</div>
+				<label>About the club</label>
+				<p>Real Madrid Club de Fútbol is a professional football club based in Madrid, Spain. The club was formed in 1902 as Madrid Football Club, and played its first competitive match on 13 May 1902, when it lost 3–1 in the semi-final of the Campeonato de Copa de SM.</p>			
+			</div>			
+		</div>		
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<button class="learnMore">Learn More</button>
+		</div>
+	</div>	
+</div>
+<hr>
+<div class="container">
+	<div class="row">
+	<div class="col-7">
+		<article>
+			<p>
+				Football, also called association football or soccer, is a game involving two teams of 11 players who try to maneuver the ball into the other team’s goal without using their hands or arms. The team that scores more goals wins. Football is the world’s most popular ball game in numbers of participants and spectators. football, also called association football or soccer, game in which two teams of 11 players, using any part of their bodies except their hands and arms, try to maneuver the ball into the opposing team’s goal. Only the goalkeeper is permitted to handle the ball and may do so only within the penalty area surrounding the goal. The team that scores more goals wins.
+			</p>
+		</article>
+	</div>
+	<div class="col-5">
+		<div class="stadiumIcon">
+			<img src="Stadium.png" height="300" width="350">
+		</div>
+	</div>	
+    </div>
+</div>
+
+<footer class="footsy">
+	<div class="row">
+		<div class="col-3 mobilestack">
+			<h1>Company</h1>
+			<ul>
+				<li>About</li>
+				<li>Blogs</li>
+				<li>Careers</li>
+			</ul>
+			
+		</div>
+		<div class="col-3 mobilestack">
+			<h1>Products</h1>
+			<ul>
+				<li>Computers</li>
+				<li>iPads</li>
+				<li>iPhones</li>
+			</ul>
+			
+		</div>
+		<div class="col-3 mobilestack">
+			<h1>Learn More</h1>
+			<ul>
+				<li>Developers</li>
+				<li>Designers</li>
+				<li>Hackers</li>
+			</ul>
+			
+		</div>
+		<div class="col-3 mobilestack">
+			<h1>Support</h1>
+			<ul>
+				<li>Help</li>
+				<li>QA</li>
+				<li>Contact</li>
+			</ul>
+			
+		</div>
+		
+	</div>
+</footer>
+
+
+
+<script>
+	function dropdownMenu() {
+		var x = document.getElementById("dropdownClick");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+			// changing topnav to topnav.responsive
+		}  else {
+			x.className = "topnav";
+		}
+	}
+</script>
+</body>
+</html>
